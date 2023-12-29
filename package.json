@@ -5,9 +5,9 @@
   "author": "Mohammed Al Ameen <ameenmohammed2311@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "bun build ./src/main.ts --outdir ./dist --minify",
+    "build": "bun build ./src/main.ts --compile",
     "dev": "bun run --watch ./src/main.ts",
-    "start": "bun run ./dist/main.js"
+    "start": "./main"
   },
   "dependencies": {
     "express": "^4.18.2"
